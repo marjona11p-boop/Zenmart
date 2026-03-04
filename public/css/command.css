@@ -83,7 +83,7 @@ p {
     outline: none;
 
     color: rgb(4, 30, 66);
-    font-family: jost;
+    font-family:"jost";
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -100,7 +100,7 @@ p {
     outline: none;
 
     color: rgb(98, 105, 116);
-    font-family: jost;
+    font-family:"jost";
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -159,7 +159,7 @@ p {
 
  .navbar_frame .box_info_box span {
     color: rgb(255, 255, 255);
-    font-family: Jost;
+    font-family:"Jost";
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
@@ -170,7 +170,7 @@ p {
 
  .navbar_frame .box_info_box strong {
     color: rgb(255, 255, 255);
-    font-family: Jost;
+    font-family:"Jost";
     font-size: 16px;
     font-weight: 500;
     line-height: 22px;
@@ -199,7 +199,7 @@ p {
     border-radius: 50%;
 
      color: rgb(11, 39, 64);
-    font-family: Jost;
+    font-family:"Jost";
     font-size: 8px;
     font-weight: 700;
     line-height: 10px;
@@ -258,7 +258,7 @@ p {
 
 .navbar_frame .navbar_route_menu a {
     margin-right: 10px;
-    font-family: Jost;
+    font-family:"Jost";
     font-size: 16px;
     font-weight: 400;
     text-align: left;
@@ -272,31 +272,10 @@ p {
 .navbar_frame .sorting_menu span {
 
     margin-left: 10px;
-    font-family: Jost;
+    font-family:"Jost";
     font-size: 16px;
     font-weight: 400;
     text-align: left;
     color: #fff;
 }
 
-/* .home_page {
-    display: flex;
-    flex-direction: column;
-}
-
-.header_frame {
-    position: relative;
-    margin-top: 47px;
-    width: 100%;
-    height: auto;
-
-    display: flex;
-    justify-content: center;
-
-}
-
-.container {
-    flex-direction: row;
-    background-color: aquamarine;
-    height: 200px;
-} */
