@@ -577,4 +577,22 @@
 
 }
 
+.home_page .adv_frame {
+    margin-top: 90px;
+    width: 1320px;
+    height: 120px;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #E5EDFF;
+    font-family:"Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px; 
+   
+
+    color: #0053F6;
+}
