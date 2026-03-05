@@ -612,7 +612,7 @@
     justify-content: center;
 }
 
-.selling_product_frame .container {
+.spec_product .container {
     flex-direction: column;
 
 }
@@ -627,7 +627,7 @@
     flex-direction: row;
 }
 
-.spec_product_wrapper .big_product_box {
+.spec_product .spec_product_wrapper .big_product_box {
     position: relative;
     padding: 30px;
     width: 664px;
@@ -641,14 +641,14 @@
     border-radius: 6px;
 }
 
-.big_product_box .big_product_content {
+.spec_product .big_product_box .big_product_content {
     width: 1601px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
-.big_product_content span {
+.spec_product .big_product_content span {
     font-family:"Jost";
     font-style: normal;
     font-weight: 400;
@@ -659,7 +659,7 @@
 
 }
 
-.big_product_content p {
+.spec_product .big_product_content p {
     margin: 7px 0;
     font-family:"Jost";
     font-style: normal;
@@ -670,7 +670,7 @@
     color: #041e42;
 }
 
-.big_product_content a {
+.spec_product .big_product_content a {
     font-family:"Jost";
     font-style: normal;
     font-weight: 400;
@@ -680,14 +680,14 @@
     color: #041e42;
 }
 
-.big_product_box img {
+.spec_product .big_product_box img {
     position: absolute;
     width: 322px;
     height: 309px;
     right: 5%;
 }
 
-.spec_product_wrapper .small_product_wrapper {
+.spec_product .spec_product_wrapper .small_product_wrapper {
     margin-left: 30px;
     width: 620px;
     height: 368px;
@@ -697,7 +697,7 @@
     flex-wrap: wrap;
 }
 
-.small_product_wrapper .small_product_box {
+.spec_product .small_product_wrapper .small_product_box {
     position: relative;
     padding: 30px;
     width: 293px;
@@ -711,16 +711,16 @@
     border-radius: 6px;
 }
 
-.small_product_box:nth-child(odd) {
+.spec_product .small_product_box:nth-child(odd) {
     margin-right: 30px;
 }
 
-.small_product_box .small_product_content {
+.spec_product .small_product_box .small_product_content {
     display: flex;
     flex-direction: column;
 }
 
-.small_product_content strong {
+.spec_product .small_product_content strong {
     font-family:"Jost";
     font-style: normal;
     font-weight: 500;
@@ -730,7 +730,7 @@
     color: #041e42;
 }
 
-.small_product_content span {
+.spec_product .small_product_content span {
     font-family:"Jost";
     font-style: normal;
     font-weight: 400;
@@ -740,12 +740,12 @@
     color: #626974;
 }
 
-.small_product_box img {
+.spec_product .small_product_box img {
     position: absolute;
     right: 30px;
     top: 40px;
 } 
 
-.small_product_box .small_image img {
+.spec_product .small_product_box .small_image img {
     top: 70px;
 }
