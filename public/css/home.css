@@ -488,11 +488,13 @@
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
-    line-height: 22px;           
+    line-height: 22px; 
+    
+    color: #ffffff;
          
 }
 
-.selling_product_frame .product_boxes:hover .hover_box {
+.selling_product_frame .product_box:hover .hover_box {
     display: flex;
 }
 
@@ -582,7 +584,8 @@
 .home_page .adv_frame {
     margin-top: 90px;
     margin-bottom: 90px;
-    width: 100%;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
     height: 120px;
 
     display: flex;
