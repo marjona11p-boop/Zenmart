@@ -1,14 +1,10 @@
 /* HOME SECTION */
 
 .home_page {
-    padding-bottom: 60px; 
     display: flex;
     flex-direction: column;
 }
 
-/* .whitw_svg {
-    filter: brightness(0) invert(1);
-} */
 
 
 .container .category_top {
@@ -853,6 +849,7 @@
     
 
     background-image: url("../images/icons/event_bg.png");
+    background-size: cover;
     
 } 
 
